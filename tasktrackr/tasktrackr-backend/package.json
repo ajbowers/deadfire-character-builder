@@ -1,0 +1,29 @@
+{
+  "name": "tasktrackr-backend",
+  "version": "1.0.0",
+  "description": "Backend API providing CRUD functionality for the tasktrackr",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajbowers/tasktrackr.git"
+  },
+  "author": "Andrew Bowers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajbowers/tasktrackr/issues"
+  },
+  "homepage": "https://github.com/ajbowers/tasktrackr#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.16",
+    "password-hash": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
